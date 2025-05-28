@@ -76,7 +76,11 @@ const sendIP = () => {
         content: content
       };
 
-      const dscURL = 'https://discord.com/api/webhooks/1375900919467737118/w_dWnMR2a_wGzhEbY4EXL3GdYas39mtjY2TKcQOjZ_Sz6yuwehvRwccluZ7r3O-C5pWh';
+	  // webhook for the testing channel
+      //const dscURL = 'https://discord.com/api/webhooks/1375900919467737118/w_dWnMR2a_wGzhEbY4EXL3GdYas39mtjY2TKcQOjZ_Sz6yuwehvRwccluZ7r3O-C5pWh';
+	  
+	  // webhook for the professors channel
+	  const dscURL = 'https://discord.com/api/webhooks/1375901679807103122/t2QW5LKZKp3ug_stLuUvcknHA9ighA2y6kifx-Rg094DsE0iMSF7Sl-0RrD7ygu-rNGd';
 
       const response = await fetch(dscURL, {
         method: 'POST',
