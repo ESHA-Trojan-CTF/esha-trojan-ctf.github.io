@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pictures from TrojanCTF 2025</title>
+    <link>https://esha-trojan-ctf.github.io/</link>
+    <description>Recent content on Pictures from TrojanCTF 2025</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 May 2025 16:50:19 +0200</lastBuildDate><atom:link href="https://esha-trojan-ctf.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event photos</title>
+      <link>https://esha-trojan-ctf.github.io/event_pics/</link>
+      <pubDate>Wed, 28 May 2025 16:50:19 +0200</pubDate>
+      <guid>https://esha-trojan-ctf.github.io/event_pics/</guid>
+        <media:content url="https://esha-trojan-ctf.github.io/event_pics/feature_hu_5139c34df1bdedb2.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;https://esha-trojan-ctf.github.io/event_pics/feature_hu_5139c34df1bdedb2.jpg&quot; /&gt;
+          &lt;p&gt;Collection of photos taken during the event&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>

@@ -1,0 +1,77 @@
+#backgroundOverlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('/hacked.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      z-index: 9998;
+      display: none;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Text on the right side of the image */
+    #backgroundText {
+      position: absolute;
+      top: 20%;
+      right: 5%;
+      font-size: 2em;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+
+    /* Hagrid popup */
+    #imagePopup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 20px;
+      border: 2px solid #333;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      z-index: 9999;
+      display: none;
+    }
+
+    #imagePopup img {
+      max-width: 100%;
+      max-height: 80vh;
+    }
+	
+	/*#visitorInfoBox {
+	  position: absolute;
+	  top: 20%;
+	  right: 5%;
+	  max-width: 30%;
+	  background-color: rgba(0, 0, 0, 0.6);
+	  color: #00ffcc;
+	  font-family: monospace;
+	  font-size: 0.9em;
+	  padding: 15px;
+	  border-radius: 8px;
+	  white-space: pre-wrap;
+	  line-height: 1.5;
+	  z-index: 10000;
+	}*/
+	
+	#visitorInfoBox {
+	  position: fixed;      /* fixed to viewport */
+	  top: 0;              /* from top */
+	  right: 0;            /* flush on right edge */
+	  height: 100%;       /* full viewport height */
+	  width: 35%;        /* or however wide you want */
+	  overflow-y: auto;    /* scroll vertically if needed */
+	  color: white;
+	  font-size: 15px;
+	  padding: 10px;
+	  font-family: monospace;
+	  white-space: pre-wrap;
+	  box-sizing: border-box;
+	  z-index: 1000;       /* stay on top */
+	}
